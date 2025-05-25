@@ -9,7 +9,7 @@ def greeting_node(state: AgentState) -> AgentState:
     """
     A simple function that modifies the state by adding a greeting message.
     """
-    state['message'] = "Hello "+ state['message'] + " ,How is Your Day Going?"
+    state['message'] = "Hello "+ state['message'] + ", How is Your Day Going?"
     return state
 
 # Create a state graph
